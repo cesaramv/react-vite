@@ -1,4 +1,6 @@
-#root {
+
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -31,7 +33,7 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
+} */
 
 .card {
   padding: 2em;
@@ -39,4 +41,25 @@
 
 .read-the-docs {
   color: #888;
+}
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
 }
